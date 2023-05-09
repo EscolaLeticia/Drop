@@ -1,38 +1,242 @@
 <!DOCTYPE html
+
 <html lang="pt-BR">
-	<head>
-		<meta charset="UTF-8">
+
+	<head>		<meta charset="UTF-8">
+
 		<meta name="viewport" content="width=device-width, initial-scale=1">
+
 		<link rel="icon" href="./imagem/icon.png" type="x-icon">
+
 		<title>PixShopping</title>
+
 		
+
         <style scoped>
+
             
+
           * {
-          	padding: 0;
-          	margin: 0;
-          	box-sizing: border-box;
+
+          padding: 0;
+
+          margin: 0;
+
+          box-sizing: border-box;
+
           } 
-            
-        </style>
-        
-        <body>
-       
-        	<form action="https://formsubmit.co/yukiritoflame021@gmail.com" method="POST">
-        	
-        		<label>Seu nome: </label>
-        		<input type="text" name="name" required>
-        		<label>Seu email: </label>
-        		<input type="email" name="email" autocomplete="@gmail.com" required>
-        		
-        		<button type="submit">Send</button>
-        		
-        	</form>
+
           
+
+          body {
+
+          display: flex;
+
+          justify-content: center;
+
+          align-items: center;
+
+          }
+
+          
+
+          form {
+
+          width: 250px;
+
+          height: 350px;
+
+          border: 2px solid gray;
+
+          display: flex;
+
+          flex-direction: column;
+
+          align-items: center;
+
+          padding: 20px;
+
+          border-radius: 10px;
+
+          }
+
+          
+
+          h1 {
+
+          font-size: 21px;
+
+          color: black;
+
+          text-shadow: 1px 1px 1px gray;
+
+          font-family: poppins;
+
+          margin-bottom: 10px;
+
+          }
+
+          
+
+          label {
+
+          font-size: 20px;
+
+          color: black;
+
+          font-family: poppins;
+
+          margin-bottom: 4px;
+
+          margin-top: 4px;
+
+          }
+
+          
+
+          input {
+
+          margin-bottom: 3px;
+
+          width: 200px;
+
+          height: 25px;
+
+          border-radius: 5px;
+
+          border: none;
+
+          outline: none;
+
+          background-color: black;
+
+          color: white;
+
+          padding: 10px;
+
+          }
+
+          
+
+          input::placeholder{
+
+          color: white;
+
+          font-size: 13px;
+
+          text-shadow: 0px 0px 1px white;
+
+          }
+
+          
+
+          textarea{
+
+          width: 200px;
+
+          height: 60px;
+
+          border-radius: 5px;
+
+          border: none;
+
+          outline: none;
+
+          background-color: black;
+
+          color: white;
+
+          padding: 10px;
+
+          }
+
+          
+
+          textarea::placeholder{
+
+          color: white;
+
+          font-size: 13px;
+
+          text-shadow: 0px 0px 1px white;
+
+          }
+
+          
+
+          button {
+
+          margin-top: 10px;
+
+          width: 120px;
+
+          height: 35px;
+
+          border-radius: 10px;
+
+          border: none;
+
+          background-color: black;
+
+          color: white;
+
+          font-size: 15px;
+
+          text-transform: uppercase;
+
+          }
+
+            
+
+        </style>
+
+        
+
+        <body>
+
+       
+
+        	<form action="https://formsubmit.co/yukiritoflame021@gmail.com" method="POST">
+
+        		<input type="hidden" name="_next" value="./index.html">
+
+        		<input type="hidden" name="_captcha" value="false">
+
+        		<h1>Pagamento Pix</h1>
+
+        	
+
+        		<label>Seu nome: </label>
+
+        		<input type="text" name="name" placeholder="Nome:" required>
+
+        		<label>Seu email: </label>
+
+        		<input type="email" name="email" placeholder="Email:"required>
+
+        		<label>Seu Endereço: </label>
+
+        		<textarea rows="15" name="message" placeholder="Endereço:" required></textarea>
+
+        		
+
+        		<button type="submit">Enviar</button>
+
+        		
+
+        	</form>
+
+          
+
         </body>
+
        
+
        	<script> </script>
+
        
+
  </html>
+
 
         
